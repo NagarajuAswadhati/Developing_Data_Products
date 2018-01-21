@@ -1,8 +1,10 @@
 
 ## Developing Data Products: Week 2 Assignment
 Nagaraju Aswadhati
-```{r}
-date()
+```{r, echo=FALSE}
+strDates <- c("08/20/2017")
+dates <- as.Date(strDates, "%m/%d/%Y") 
+dates
 ```
 
 Tourist and devotional place in Andhra Pradesh, India
