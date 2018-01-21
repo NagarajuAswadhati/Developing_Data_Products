@@ -1,0 +1,18 @@
+
+## Developing Data Products: Week 2 Assignment
+Nagaraju Aswadhati
+```{r}
+date()
+```
+
+Tourist and devotional place in Andhra Pradesh, India
+
+
+```{r pressure, echo=FALSE}
+library(leaflet)
+leaflet() %>%
+addTiles() %>%
+addMarkers(lat=13.6802062, lng=79.3531965, popup="Tirumala, Tirupathi")
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
